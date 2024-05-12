@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -143,4 +148,14 @@ a {
     padding: 10px;
     border: 1px solid #F9FAF8;
     border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Verdana, Helvetica, Tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
 }
