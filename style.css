@@ -24,3 +24,40 @@ a {
     color: #F9FAF8;
     text-decoration: none;
 }
+
+.container1 {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    gap: 48px;
+    font-family: Verdana, Helvetica, Tahoma;
+}
+
+.left h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    padding: 10px 30px;
+}
+
+.left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.right img {
+    max-width: 50vw;
+    align-items: center;
+    padding-right: 30px;
+}
