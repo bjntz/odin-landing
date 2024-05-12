@@ -106,3 +106,41 @@ a {
     font-weight: bold;
     text-align: right;
 }
+
+.container4 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-family: Verdana, Helvetica, Tahoma;
+    display: flex;
+    margin: 50px;
+    padding: 20px 50px;
+    gap: 42px;
+}
+
+.bookingtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookingtext h2 {
+    margin-bottom: 0px;
+}
+
+.bookingtext p {
+    margin-top: 0px;
+}
+
+.bookingbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingbutton button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+}
