@@ -1,0 +1,26 @@
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Helvetica, Tahoma;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
